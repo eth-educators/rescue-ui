@@ -10,7 +10,7 @@ export default function Header({ sx }: { sx?: SxProps<Theme> }) {
   return (
     <Stack sx={sx} direction="column" alignItems="center">
       <Box sx={{ m: 2 }}>
-        <Logo size={64} />
+        <Logo size={75} />
       </Box>
       <Typography variant="h4" fontWeight="fontWeightBold">
         Rocket Rescue Node
