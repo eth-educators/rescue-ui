@@ -188,10 +188,10 @@ Your Rescue Node URL, from <code>~/.rocketpool/override/validator.yml</code> wil
 <p>As of Smartnode v1.11.1, <code>rocketpool node status</code> will contain a message telling you that you are using the Rescue Node, and how much longer you have access.</p>
 <p>Addtionally, most validator clients will log a message containing the url.
 You can see if it connected by running:</p>
-<pre><code>docker logs rocketpool_validator |&amp; grep rescuenode.com
+<pre><code>docker logs rocketpool_validator |&amp; grep rescuenode.ethstaker.cc
 </code></pre>
 <p>If that doesn't work, you can also check the following command to make sure the validator is using the Rescue Node URL:</p>
-<pre><code>docker exec rocketpool_validator env |&amp; grep rescuenode.com
+<pre><code>docker exec rocketpool_validator env |&amp; grep rescuenode.ethstaker.cc
 </code></pre>
 <p>Follow your validators on <a href="https://beaconcha.in/">beaconcha.in</a> to verify that they are attesting.</p>
 </details>

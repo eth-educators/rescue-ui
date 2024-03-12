@@ -189,11 +189,11 @@ Additionally, even if MEV-Boost is enabled and there is no MEV available for a p
 <li>Some solo stakers may have opted to use <a href="https://eth-docker.net/">eth-docker</a> instead.</li>
 <li>Others may use docker-compose directly.</li>
 </ul>
-<p>No matter how you originally installed your Validator Client, to proceed you will need the credential pair you received after submitting your signed message on the <a href="https://rescuenode.com">website</a>.</p>
+<p>No matter how you originally installed your Validator Client, to proceed you will need the credential pair you received after submitting your signed message on the <a href="https://rescuenode.ethstaker.cc">website</a>.</p>
 <h1 id="constructing-your-access-urls"><a class="header" href="#constructing-your-access-urls">Constructing your access URL(s)</a></h1>
 <hr />
 <p>For <strong>ALL</strong> users, the URL will have the format:</p>
-<pre><code>https://USERNAME:PASSWORD@CLIENT.rescuenode.com
+<pre><code>https://USERNAME:PASSWORD@CLIENT.rescuenode.ethstaker.cc
 </code></pre>
 <p>where CLIENT is <code>nimbus</code>, e.g., for Nimbus, and USERNAME/PASSWORD are your credentials from the website.</p>
 <hr />
@@ -228,7 +228,7 @@ Additionally, even if MEV-Boost is enabled and there is no MEV available for a p
 <li>Prysm:</li>
 </ul>
 <pre><code>--beacon-rest-api-provider=YOUR_ACCESS_URL \
---beacon-rpc-provider=prysm-grpc.rescuenode.com:443 \
+--beacon-rpc-provider=prysm-grpc.rescuenode.ethstaker.cc:443 \
 --grpc-headers=rprnauth=YOUR_AUTH_HEADER \
 --tls-cert=/etc/ssl/certs/ca-certificates.crt
 </code></pre>
@@ -256,9 +256,9 @@ Only Prysm, Lodestar, and Lighthouse are fully supported as of Nov. 2023.
 <li>In the <code>validator</code> service <code>entrypoint</code> list, update or add the following flags:</li>
 </ul>
 <pre><code>- --beacon-rpc-provider
-- prysm-grpc.rescuenode.com:443
+- prysm-grpc.rescuenode.ethstaker.cc:443
 - --beacon-rpc-gateway-provider
-- prysm-grpc.rescuenode.com:443
+- prysm-grpc.rescuenode.ethstaker.cc:443
 - --grpc-headers
 - rprnauth=YOUR_AUTH_HEADER
 - --tls-cert

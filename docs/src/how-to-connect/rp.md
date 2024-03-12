@@ -67,7 +67,7 @@ services:
   validator:
     x-rp-comment: Add your customizations below this line
     environment:
-      - "CC_API_ENDPOINT=https://USERNAME:PASSWORD@CLIENT.rescuenode.com"
+      - "CC_API_ENDPOINT=https://USERNAME:PASSWORD@CLIENT.rescuenode.ethstaker.cc"
 ```
 
 ### Example for Prysm
@@ -83,7 +83,7 @@ services:
   validator:
     x-rp-comment: Add your customizations below this line
     environment:
-      - "CC_RPC_ENDPOINT=prysm-grpc.rescuenode.com:443"
+      - "CC_RPC_ENDPOINT=prysm-grpc.rescuenode.ethstaker.cc:443"
       - "VC_ADDITIONAL_FLAGS=--grpc-headers=rprnauth=USERNAME:PASSWORD --tls-cert=/etc/ssl/certs/ca-certificates.crt"
 ```
 
@@ -127,9 +127,9 @@ To set this up, run `rocketpool service config` and go to `Fallback Clients`.
 Check `Use Fallback Clients`.
 
 1. Insert the `Execution Client URL` (e.g, the Infura Web3 URL).
-1. In the `Beacon Node (HTTP) URL` box, insert `https://USERNAME:PASSWORD@CLIENT.rescuenode.com`, substituting USERNAME/PASSWORD/CLIENT.
+1. In the `Beacon Node (HTTP) URL` box, insert `https://USERNAME:PASSWORD@CLIENT.rescuenode.ethstaker.cc`, substituting USERNAME/PASSWORD/CLIENT.
 1. **If using Prysm** follow these additional steps:
-    - In the `Beacon Node JSON-RPC URL` box insert `prysm-grpc.rescuenode.com:443`
+    - In the `Beacon Node JSON-RPC URL` box insert `prysm-grpc.rescuenode.ethstaker.cc:443`
     - Go back to the main config and edit your `Consensus Client Settings`->`Additional Validator Client Flags` to contain `--grpc-headers=rprnauth=USERNAME:PASSWORD --tls-cert=/etc/ssl/certs/ca-certificates.crt`, substituting your USERNAME/PASSWORD. 
 
 As usual, changes are effective after running `rocketpool service start`.

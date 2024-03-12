@@ -44,7 +44,7 @@ export default function Header({ sx }: { sx?: SxProps<Theme> }) {
           variant="h6"
           color="text.secondary"
           target="_blank"
-          href="https://stats.rescuenode.com/"
+          href="https://stats.rescuenode.ethstaker.cc/"
         >
           Stats
         </Link>

@@ -170,7 +170,7 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="rescue-node---solo-validator-access-tech-spec"><a class="header" href="#rescue-node---solo-validator-access-tech-spec">Rescue Node - Solo Validator Access Tech Spec</a></h1>
-<p>This document will serve as a technical specification for a project with the goal of allowing solo validators access to the <a href="https://rescuenode.com/">EthStaker Rescue Node</a>.</p>
+<p>This document will serve as a technical specification for a project with the goal of allowing solo validators access to the <a href="https://rescuenode.ethstaker.cc/">EthStaker Rescue Node</a>.</p>
 <p>As with the original project, the main priority will be around identity management for MEV/tips theft prevention.</p>
 <h2 id="changes"><a class="header" href="#changes">Changes</a></h2>
 <h3 id="credentials"><a class="header" href="#credentials">credentials</a></h3>
@@ -216,7 +216,7 @@ This should be developed in a way that makes real-time sacrifices in order to mi
 <h3 id="rescue-ui"><a class="header" href="#rescue-ui">rescue-ui</a></h3>
 <p>The bulk of the work will fall in <a href="https://github.com/Rocket-Rescue-Node/rescue-ui">rescue-ui</a>.</p>
 <ol>
-<li>The landing page at https://rescuenode.com will have to ask if the user is requesting access for a solo validator or a Rocket Pool node.</li>
+<li>The landing page at https://rescuenode.ethstaker.cc will have to ask if the user is requesting access for a solo validator or a Rocket Pool node.</li>
 <li>We will use an open-source library to allow the solo operator to connect their 0x01 wallet to the website. We will advise against connecting a cold wallet. Unfortunately, the solo validator needs to prove custody of the withdrawal address, and this is the cleanest solution. We will take this opportunity to recommend that the solo validator use a hardware wallet (or better) as their withdrawal address.</li>
 <li>Once connected, the solo validator will be able to <strong>sign EIP-191 data</strong> with their withdrawal wallet which is automatically populated with a message of the format:</li>
 </ol>

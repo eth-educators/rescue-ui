@@ -1,6 +1,6 @@
 # Rescue Node - Solo Validator Access Tech Spec
 
-This document will serve as a technical specification for a project with the goal of allowing solo validators access to the [EthStaker Rescue Node](https://rescuenode.com/).
+This document will serve as a technical specification for a project with the goal of allowing solo validators access to the [EthStaker Rescue Node](https://rescuenode.ethstaker.cc/).
 
 As with the original project, the main priority will be around identity management for MEV/tips theft prevention.
 
@@ -61,7 +61,7 @@ Ideally, [this library](https://github.com/Rocket-Rescue-Node/guarded-beacon-pro
 
 The bulk of the work will fall in [rescue-ui](https://github.com/Rocket-Rescue-Node/rescue-ui).
 
-1) The landing page at https://rescuenode.com will have to ask if the user is requesting access for a solo validator or a Rocket Pool node.
+1) The landing page at https://rescuenode.ethstaker.cc will have to ask if the user is requesting access for a solo validator or a Rocket Pool node.
 2) We will use an open-source library to allow the solo operator to connect their 0x01 wallet to the website. We will advise against connecting a cold wallet. Unfortunately, the solo validator needs to prove custody of the withdrawal address, and this is the cleanest solution. We will take this opportunity to recommend that the solo validator use a hardware wallet (or better) as their withdrawal address.
 3) Once connected, the solo validator will be able to **sign EIP-191 data** with their withdrawal wallet which is automatically populated with a message of the format:
 ```

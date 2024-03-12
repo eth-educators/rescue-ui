@@ -1,8 +1,8 @@
 # rescue-ui
 
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/https/rescuenode.com.svg)](https://rescuenode.com/)
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/https/rescuenode.ethstaker.cc.svg)](https://rescuenode.ethstaker.cc)
 
-This repository contains the source code for [Rocket Rescue Node](https://rescuenode.com),
+This repository contains the source code for [EthStaker Rescue Node](https://rescuenode.ethstaker.cc),
 a community-run, trust-minimized, and secured fallback node for emergencies and maintenance.
 
 This web app uses [wagmi](https://wagmi.sh) + [Web3Modal](https://web3modal.com/) + [Vite](https://vitejs.dev/).
