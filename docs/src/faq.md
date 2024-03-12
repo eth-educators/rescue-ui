@@ -1,6 +1,13 @@
 # FAQ
 
 <details>
+  <summary>Why are there two Rescue Nodes?</summary>
+
+EthStaker is providing redundancy for the fallback service for the sake of decentralization. We work closely with the [Rocket Pool Rescue Node](https://rescuenode.com) to maintain this public good in a resilient way.
+
+</details>
+
+<details>
   <summary>How often can I use the Rescue Node?</summary>
 
 Rocket Pool Node operators can use it four times per year.  
