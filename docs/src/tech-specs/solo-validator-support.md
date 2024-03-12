@@ -1,6 +1,6 @@
 # Rescue Node - Solo Validator Access Tech Spec
 
-This document will serve as a technical specification for a project with the goal of allowing solo validators access to the [Rocket Rescue Node](https://rescuenode.com/).
+This document will serve as a technical specification for a project with the goal of allowing solo validators access to the [EthStaker Rescue Node](https://rescuenode.com/).
 
 As with the original project, the main priority will be around identity management for MEV/tips theft prevention.
 

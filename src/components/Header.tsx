@@ -13,7 +13,7 @@ export default function Header({ sx }: { sx?: SxProps<Theme> }) {
         <Logo size={75} />
       </Box>
       <Typography variant="h4" fontWeight="fontWeightBold">
-        Rocket Rescue Node
+        EthStaker Rescue Node
       </Typography>
       <Stack direction="row" spacing={2}>
         <Link
