@@ -21,7 +21,7 @@ import CredentialCard from "./CredentialCard";
 
 // Tabbed interface to the request-access forms (one for RP, another for Solo operators).
 export default function RequestAccessSection({ sx }: { sx?: SxProps<Theme> }) {
-  const [tab, setTab] = useState<"rocketpool" | "solo">("rocketpool");
+  const [tab, setTab] = useState<"rocketpool" | "solo">("solo");
   const [cred, setCred] = useState<AccessCredential | null>(null);
   return (
     <Paper sx={sx}>
@@ -40,17 +40,6 @@ export default function RequestAccessSection({ sx }: { sx?: SxProps<Theme> }) {
             a signature. This signature process is different for{" "}
             <Link
               onClick={() => {
-                setTab("rocketpool");
-              }}
-              sx={{ cursor: "pointer" }}
-              underline="hover"
-              color="primary.main"
-            >
-              rocket pool
-            </Link>{" "}
-            versus{" "}
-            <Link
-              onClick={() => {
                 setTab("solo");
               }}
               sx={{ cursor: "pointer" }}
@@ -58,6 +47,17 @@ export default function RequestAccessSection({ sx }: { sx?: SxProps<Theme> }) {
               color="secondary.main"
             >
               solo node
+            </Link>{" "}
+            versus{" "}
+            <Link
+              onClick={() => {
+                setTab("rocketpool");
+              }}
+              sx={{ cursor: "pointer" }}
+              underline="hover"
+              color="primary.main"
+            >
+              rocket pool
             </Link>{" "}
             operators.
           </Typography>
@@ -73,18 +73,18 @@ export default function RequestAccessSection({ sx }: { sx?: SxProps<Theme> }) {
           }}
         >
           <Tab
-            value="rocketpool"
-            label={
-              <Typography variant="inherit" color="primary">
-                Rocket Pool Operator
-              </Typography>
-            }
-          />
-          <Tab
             value="solo"
             label={
               <Typography variant="inherit" color="secondary">
                 Solo Node Operator
+              </Typography>
+            }
+          />
+          <Tab
+            value="rocketpool"
+            label={
+              <Typography variant="inherit" color="primary">
+                Rocket Pool Operator
               </Typography>
             }
           />
