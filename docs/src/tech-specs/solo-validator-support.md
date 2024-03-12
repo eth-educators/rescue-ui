@@ -59,7 +59,7 @@ Ideally, [this library](https://github.com/Rocket-Rescue-Node/guarded-beacon-pro
 
 ### rescue-ui
 
-The bulk of the work will fall in [rescue-ui](https://github.com/Rocket-Rescue-Node/rescue-ui).
+The bulk of the work will fall in [rescue-ui](https://github.com/eth-educators/rescue-ui).
 
 1) The landing page at https://rescuenode.ethstaker.cc will have to ask if the user is requesting access for a solo validator or a Rocket Pool node.
 2) We will use an open-source library to allow the solo operator to connect their 0x01 wallet to the website. We will advise against connecting a cold wallet. Unfortunately, the solo validator needs to prove custody of the withdrawal address, and this is the cleanest solution. We will take this opportunity to recommend that the solo validator use a hardware wallet (or better) as their withdrawal address.
