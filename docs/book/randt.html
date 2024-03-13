@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>About - EthStaker Rescue Node Docs</title>
+        <title>Risks and Trust - EthStaker Rescue Node Docs</title>
 
 
         <!-- Custom HTML head -->
@@ -87,7 +87,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="about.html" class="active"><strong aria-hidden="true">1.</strong> About</a></li><li class="chapter-item expanded "><a href="how-to-connect/SUMMARY.html"><strong aria-hidden="true">2.</strong> How To Connect</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="how-to-connect/rp.html"><strong aria-hidden="true">2.1.</strong> ... As a Rocket Pool Node Operator</a></li><li class="chapter-item expanded "><a href="how-to-connect/solo.html"><strong aria-hidden="true">2.2.</strong> ... As a Solo Staker</a></li><li class="chapter-item expanded "><a href="how-to-connect/disconnect.html"><strong aria-hidden="true">2.3.</strong> ... and Disconnect</a></li></ol></li><li class="chapter-item expanded "><a href="how-it-works.html"><strong aria-hidden="true">3.</strong> How It Works</a></li><li class="chapter-item expanded "><a href="donate.html"><strong aria-hidden="true">4.</strong> Donate</a></li><li class="chapter-item expanded "><a href="faq.html"><strong aria-hidden="true">5.</strong> FAQ</a></li><li class="chapter-item expanded "><a href="tandc.html"><strong aria-hidden="true">6.</strong> Terms and Conditions</a></li><li class="chapter-item expanded "><a href="randt.html"><strong aria-hidden="true">7.</strong> Risks and Trust</a></li><li class="chapter-item expanded "><a href="tech-specs/SUMMARY.html"><strong aria-hidden="true">8.</strong> Tech Specs</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="tech-specs/original-tech-spec.html"><strong aria-hidden="true">8.1.</strong> Original Tech Spec</a></li><li class="chapter-item expanded "><a href="tech-specs/solo-validator-support.html"><strong aria-hidden="true">8.2.</strong> Solo Validator Support</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="about.html"><strong aria-hidden="true">1.</strong> About</a></li><li class="chapter-item expanded "><a href="how-to-connect/SUMMARY.html"><strong aria-hidden="true">2.</strong> How To Connect</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="how-to-connect/rp.html"><strong aria-hidden="true">2.1.</strong> ... As a Rocket Pool Node Operator</a></li><li class="chapter-item expanded "><a href="how-to-connect/solo.html"><strong aria-hidden="true">2.2.</strong> ... As a Solo Staker</a></li><li class="chapter-item expanded "><a href="how-to-connect/disconnect.html"><strong aria-hidden="true">2.3.</strong> ... and Disconnect</a></li></ol></li><li class="chapter-item expanded "><a href="how-it-works.html"><strong aria-hidden="true">3.</strong> How It Works</a></li><li class="chapter-item expanded "><a href="donate.html"><strong aria-hidden="true">4.</strong> Donate</a></li><li class="chapter-item expanded "><a href="faq.html"><strong aria-hidden="true">5.</strong> FAQ</a></li><li class="chapter-item expanded "><a href="tandc.html"><strong aria-hidden="true">6.</strong> Terms and Conditions</a></li><li class="chapter-item expanded "><a href="randt.html" class="active"><strong aria-hidden="true">7.</strong> Risks and Trust</a></li><li class="chapter-item expanded "><a href="tech-specs/SUMMARY.html"><strong aria-hidden="true">8.</strong> Tech Specs</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="tech-specs/original-tech-spec.html"><strong aria-hidden="true">8.1.</strong> Original Tech Spec</a></li><li class="chapter-item expanded "><a href="tech-specs/solo-validator-support.html"><strong aria-hidden="true">8.2.</strong> Solo Validator Support</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -169,64 +169,55 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="about-the-ethstaker-rescue-node"><a class="header" href="#about-the-ethstaker-rescue-node">About the EthStaker Rescue Node</a></h1>
-<p>At its {{#title}} core, EthStaker Rescue Node is a community-operated Ethereum node which can be used by node operators as an emergency fallback node during maintenance.</p>
-<p>EthStaker Rescue Node was first created to help <a href="https://rocketpool.net/">Rocket Pool</a> Node Operators survive The Merge in September '22, but quickly proved its lasting utility.
-In December 2023, we launched solo validator support.</p>
-<p>We have <a href="https://dao.rocketpool.net/t/january-2023-gmc-call-for-grant-applications-deadline-is-january-15th/1335/3">received a pDAO grant</a> to help ensure its ongoing available to the community.</p>
-<p>Under the hood, EthStaker Rescue Node is actually five nodes to maximize Beacon Client compatibility, a custom reverse-proxy to combat potential malfeasance by its users, and an API and UI to make it easy to access.
-For more information, see the <a href="./tech-specs/SUMMARY.html">Tech Specs</a>.</p>
-<h2 id="limits"><a class="header" href="#limits">Limits</a></h2>
-<p>Currently, a single Rocket Pool node is restricted to using EthStaker Rescue Node <strong>four times per year, for 15 days at a time</strong>.
-Solo stakers are restricted to using the EthStaker Rescue Node <strong>twice per year, for 10 days at a time</strong>.
-Re-requesting access before the window ends will <strong>not</strong> consume additional quota nor will it extend your access, <strong>unless less than 2 days remain</strong>.
-Therefore, if you lose your access URL, you can rerequest access to retrieve it, up to 8 or 13 days after it was created.</p>
-<h2 id="maintainers"><a class="header" href="#maintainers">Maintainers</a></h2>
-<p>The rescue node is currently maintained by:</p>
-<ul>
-<li>João Poupino
-<ul>
-<li><strong>@poupas</strong> on Discord</li>
-<li><a href="https://github.com/poupas">GitHub</a></li>
-<li><a href="https://dao.rocketpool.net/u/poupas/summary">RP Dao Forum</a></li>
-<li><a href="https://twitter.com/poupas">Twitter</a></li>
-</ul>
-</li>
-<li>Jacob Shufro
-<ul>
-<li><strong>@Patches</strong> on Discord</li>
-<li><a href="https://github.com/jshufro">GitHub</a></li>
-<li><a href="https://dao.rocketpool.net/u/patches/summary">RP Dao Forum</a></li>
-<li><a href="https://twitter.com/0xPatches">Twitter</a></li>
-</ul>
-</li>
-<li>Ken Smith
-<ul>
-<li><strong>@Ken</strong> on Discord</li>
-<li><a href="https://github.com/htimsk">GitHub</a></li>
-<li><a href="https://dao.rocketpool.net/u/ken/summary">RP Dao Forum</a></li>
-<li><a href="https://twitter.com/nextblock_eth">Twitter</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="credits"><a class="header" href="#credits">Credits</a></h2>
-<ul>
-<li>@poupas - prototype, rescue-api, design, infrastructure, security</li>
-<li>@Patches - rescue-proxy, credentials library, design, general administrative stuff</li>
-<li>@hanniabu.eth - original rescue-ui website</li>
-<li>@dmccartney - new rescue-ui website with solo support</li>
-<li>@sleety.eth - logo design</li>
-</ul>
-<h2 id="open-source"><a class="header" href="#open-source">Open Source</a></h2>
-<p>The software that secures and powers EthStaker Rescue Node is open source under the AGPL V3 License.</p>
-<p><a href="https://github.com/orgs/Rocket-Rescue-Node/repositories">View source code on GitHub</a></p>
+                        <h1 id="risks-and-trust"><a class="header" href="#risks-and-trust">Risks and Trust</a></h1>
+<p>While we have done everything in our power to minimize risks and trust assumptions, there are a few that remain.</p>
+<h2 id="trust-assumptions"><a class="header" href="#trust-assumptions">Trust Assumptions</a></h2>
+<p>A User of EthStaker Rescue Node is explicitly trusting that its Maintainers will not attempt to steal their proposal rewards and is accepting full liability.
+We obviously have no intention of doing so, however, it is theoretically within our ability to siphon proposal fees.
+For a list of the current Maintainers, see the <a href="./about.html">About</a> section.
+We have gone to great lengths to prevent a User of EthStaker Rescue Node from stealing the proposal fees from another User, but we cannot promise that it is impossible to do so.
+You are explicitly trusting that the safeguards we put in place are sufficient.</p>
+<p>EthStaker Rescue Node is fully non-custodial.
+Your validator keys remain local to your node.</p>
+<h2 id="risks"><a class="header" href="#risks">Risks</a></h2>
+<p>The slashing risks of Node Operation are not mitigated by EthStaker Rescue Node.
+We encourage you to use Doppelgänger Detection, and always wait the prescribed 15 minutes after changing Validator Clients.
+Since your keys remain in your custody and your Validator Client's slashing protection database remains in place, EthStaker Rescue Node does not present additional slashing risks, outside of the usual human error.
+Please exercise caution whenever performing administrative functions on your node.</p>
+<h3 id="fee-recipient-enforcement"><a class="header" href="#fee-recipient-enforcement">Fee Recipient Enforcement</a></h3>
+<p>For locally built blocks, The EthStaker Rescue Node forces connected users to use fee recipients that are known to be safe.</p>
+<p>For Rocket Pool Node Operators, this means either their node's fee distributor contract, or the smoothing pool contract, depending on whether they are in the smoothing pool.<br />
+For solo stakers, <strong>we only accept the 0x01 credential's address as the fee recipient for locally built blocks.</strong></p>
+<p>For blind blocks, any fee recipient is accepted.</p>
+<div class="warning">
+<p>We <em><strong>strongly</strong></em> <strong>recommend solo stakers use their 0x01 credential as their fee recipient, or at least enable MEV-Boost before connecting.</strong></p>
+<p>Invalid fee recipients can lead to missed proposals.</p>
+</div>
+<h2 id="data-retention"><a class="header" href="#data-retention">Data Retention</a></h2>
+<p>As a matter of necessity, your wallet address and IP address are logged by our system.
+This allows us to proactively block Users who attempt to misbehave.
+We will never share these data with a third party.
+If you would like to have an extra layer of anonymity, we recommend using a VPN on your node to anonymize your IP address.</p>
+<h2 id="types-of-theft"><a class="header" href="#types-of-theft">Types of Theft</a></h2>
+<p>Proposals include two types of Execution Layer rewards, tips, and if enabled, MEV.
+They also include a reward on the Consensus Layer, which is not at risk.</p>
+<h2 id="stealing-tips"><a class="header" href="#stealing-tips">Stealing tips</a></h2>
+<p>The main type of theft that is possible is the theft of tips by the maintainers of the service.
+Since anyone with access to the Beacon API can call <code>prepare_beacon_proposer</code>, a malicious maintainer could overwrite your fee recipient and steal the tips for any locally built blocks you publish while connected.</p>
+<h2 id="stealing-mev"><a class="header" href="#stealing-mev">Stealing MEV</a></h2>
+<p>Stealing MEV is not possible, to the best of our knowledge.
+The <code>register_validator</code> request from the validator client requires a signature from the validator's keys, and we have no way of spoofing it.
+However, a malicious maintainer could force your validator to use locally built blocks only, and proceed to steal the tips, as described above.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="tandc.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
 
-                            <a rel="next prefetch" href="how-to-connect/SUMMARY.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="tech-specs/SUMMARY.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -236,8 +227,11 @@ Therefore, if you lose your access URL, you can rerequest access to retrieve it,
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="tandc.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
 
-                    <a rel="next prefetch" href="how-to-connect/SUMMARY.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="tech-specs/SUMMARY.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
