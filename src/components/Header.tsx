@@ -10,10 +10,10 @@ export default function Header({ sx }: { sx?: SxProps<Theme> }) {
   return (
     <Stack sx={sx} direction="column" alignItems="center">
       <Box sx={{ m: 2 }}>
-        <Logo size={64} />
+        <Logo size={75} />
       </Box>
       <Typography variant="h4" fontWeight="fontWeightBold">
-        Rocket Rescue Node
+        EthStaker Rescue Node
       </Typography>
       <Stack direction="row" spacing={2}>
         <Link
@@ -44,7 +44,7 @@ export default function Header({ sx }: { sx?: SxProps<Theme> }) {
           variant="h6"
           color="text.secondary"
           target="_blank"
-          href="https://stats.rescuenode.com/"
+          href="https://stats.rescuenode.ethstaker.cc/"
         >
           Stats
         </Link>

@@ -7,8 +7,8 @@
 - 'Developers' refers to the individuals who contributed software or other efforts to the creation of the service.
 
 ## Terms
-Users acknowledge and agree that the Maintainers and Developers of Rocket Rescue Node are not liable for any financial damages incurred by Users, directly or indirectly, through their use of Rocket Rescue Node, and Users will not take any action to seek to hold Maintainers and Developers so liable.
+Users acknowledge and agree that the Maintainers and Developers of EthStaker Rescue Node are not liable for any financial damages incurred by Users, directly or indirectly, through their use of EthStaker Rescue Node, and Users will not take any action to seek to hold Maintainers and Developers so liable.
 
-Users agree not to redirect any funds or digital assets while using Rocket Rescue Node, nor attempt to do so, and Maintainers and Developers of Rocket Rescue Node are not liable for any such redirection or attempt at redirection by Users.
+Users agree not to redirect any funds or digital assets while using EthStaker Rescue Node, nor attempt to do so, and Maintainers and Developers of EthStaker Rescue Node are not liable for any such redirection or attempt at redirection by Users.
 
-Users' access to Rocket Rescue Node may be revoked without warning at the sole direction of the Maintainers of Rocket Rescue Node, and Maintainers and Developers are not liable for any financial damages that may be incurred by Users as a result of such revocation.
+Users' access to EthStaker Rescue Node may be revoked without warning at the sole direction of the Maintainers of EthStaker Rescue Node, and Maintainers and Developers are not liable for any financial damages that may be incurred by Users as a result of such revocation.

@@ -1,6 +1,13 @@
 # FAQ
 
 <details>
+  <summary>Why are there two Rescue Nodes?</summary>
+
+EthStaker is providing redundancy for the fallback service for the sake of decentralization. We work closely with the [Rocket Pool Rescue Node](https://rescuenode.com) to maintain this public good in a resilient way.
+
+</details>
+
+<details>
   <summary>How often can I use the Rescue Node?</summary>
 
 Rocket Pool Node operators can use it four times per year.  
@@ -30,12 +37,12 @@ As of Smartnode v1.11.1, `rocketpool node status` will contain a message telling
 Addtionally, most validator clients will log a message containing the url.
 You can see if it connected by running:
 ```
-docker logs rocketpool_validator |& grep rescuenode.com
+docker logs rocketpool_validator |& grep rescuenode.ethstaker.cc
 ```
 
 If that doesn't work, you can also check the following command to make sure the validator is using the Rescue Node URL:
 ```
-docker exec rocketpool_validator env |& grep rescuenode.com
+docker exec rocketpool_validator env |& grep rescuenode.ethstaker.cc
 ```
 
 Follow your validators on [beaconcha.in](https://beaconcha.in/) to verify that they are attesting.

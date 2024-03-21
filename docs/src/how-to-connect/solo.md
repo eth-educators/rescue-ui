@@ -30,7 +30,7 @@ Connecting as a Solo Staker depends on how you originally installed your Validat
 - Some solo stakers may have opted to use [eth-docker](https://eth-docker.net/) instead.
 - Others may use docker-compose directly.
 
-No matter how you originally installed your Validator Client, to proceed you will need the credential pair you received after submitting your signed message on the [website](https://rescuenode.com).
+No matter how you originally installed your Validator Client, to proceed you will need the credential pair you received after submitting your signed message on the [website](https://rescuenode.ethstaker.cc).
 
 # Constructing your access URL(s)
 
@@ -38,7 +38,7 @@ No matter how you originally installed your Validator Client, to proceed you wil
 
 For **ALL** users, the URL will have the format:
 ```
-https://USERNAME:PASSWORD@CLIENT.rescuenode.com
+https://USERNAME:PASSWORD@CLIENT.rescuenode.ethstaker.cc
 ```
 
 where CLIENT is `nimbus`, e.g., for Nimbus, and USERNAME/PASSWORD are your credentials from the website.
@@ -86,7 +86,7 @@ Add or change your Beacon Node URL flag according to which client you use (subst
 - Prysm:
 ```
 --beacon-rest-api-provider=YOUR_ACCESS_URL \
---beacon-rpc-provider=prysm-grpc.rescuenode.com:443 \
+--beacon-rpc-provider=prysm-grpc.rescuenode.ethstaker.cc:443 \
 --grpc-headers=rprnauth=YOUR_AUTH_HEADER \
 --tls-cert=/etc/ssl/certs/ca-certificates.crt
 ```
@@ -119,9 +119,9 @@ Prysm
 
 ```
 - --beacon-rpc-provider
-- prysm-grpc.rescuenode.com:443
+- prysm-grpc.rescuenode.ethstaker.cc:443
 - --beacon-rpc-gateway-provider
-- prysm-grpc.rescuenode.com:443
+- prysm-grpc.rescuenode.ethstaker.cc:443
 - --grpc-headers
 - rprnauth=YOUR_AUTH_HEADER
 - --tls-cert
